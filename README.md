@@ -56,4 +56,4 @@ The long-term goal is to grow SheShines into a comprehensive self-care and welln
 
 ## Getting Started
 
-You can try out the site here: 
+You can try out the site here: [SheShines: For every mood, moment, and miracle in you.] (https://jyothsna-l.github.io/SheShines/)
