@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>SheShines - Self Care Space for Women</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+    <header>
+        <h1>SheShines ✨</h1>
+        <p><i>For every mood, moment, and miracle in you.</i></p>
+    </header>
+
+    <main>
+        <div class="section">
+            <h2>The Purpose 🌸</h2>
+            <p>
+                <i><strong>SheShines</strong></i> is a self-care space designed especially for women to reflect, recharge, and track emotions.
+                Every woman deserves love, motivation and time to understand herself better both emotionally and mentally.
+            </p>
+        </div>
+
+        <div class="section">
+            <h2>Your Daily Dose of Self-Care 💖</h2>
+            <div id="tipBox">Your self-care task will appear here!</div>
+            <button onclick="generateTip()">My Self-Care Task</button>
+        </div>
+
+        <div class="section">
+            <h2>😊 Mood Tracker</h2>
+            <label for="moodSelect">How are you feeling today?</label><br />
+            <select id="moodSelect">
+                <option value="">-- Select Mood --</option>
+                <option>😊 Happy</option>
+                <option>😐 Okay</option>
+                <option>😟 Stressed</option>
+                <option>😢 Sad</option>
+                <option>💪 Motivated</option>
+            </select>
+            <button onclick="saveMood()">Save Mood</button>
+            <p id="moodResult"></p>
+        </div>
+
+        <div class="section">
+            <h2>📝 Journal</h2>
+            <label for="journalEntry">Write your thoughts or reflections:</label><br />
+            <textarea id="journalEntry" placeholder="Today I felt..."></textarea><br />
+            <button onclick="saveJournal()">Save Journal Entry</button>
+            <p id="journalResult"></p>
+        </div>
+
+        <div class="btn-container">
+            <button onclick="showMessage()">Message for You 💌</button>
+            <button onclick="showAffirmation()">Your daily dose of affirmation 💫</button>
+            <button onclick="generatePDF()">Generate PDF</button>
+            <button onclick="toggleDarkMode()">Dark/Light Mode</button>
+        </div>
+    </main>
+
+    <footer>
+        <p>Built with 💖 by Jyothsna L</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/jspdf@2.5.1/dist/jspdf.umd.min.js"></script>
+    <script src="script.js"></script>
+
+    <div id="messageModal" class="modal">
+  <div class="modal-content">
+    <span class="close-btn" onclick="closeMessageModal()">&times;</span>
+    <p id="modalMessage"></p>
+  </div>
+</div>
+
+</body>
+</html>
