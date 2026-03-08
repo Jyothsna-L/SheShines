@@ -179,15 +179,15 @@ function showMessage() {
     "Be proud of how far you’ve come 📈",
     "You light up the world in ways you don’t even realize ✨",
     "Progress, not perfection 🌱",
-    "Honor your feelings — they are valid 💗",
+    "Honor your feelings - they are valid 💗",
     "You are doing better than you think 🪷",
-    "Healing isn’t linear — take your time 💞",
+    "Healing isn’t linear - take your time 💞",
     "Your story is still unfolding — and it’s beautiful 📖",
     "Nurture yourself like someone you deeply love 💐",
     "You radiate a quiet power that inspires 💡",
     "You deserve the same care you give to others 💕",
     "Even your slow days are meaningful 🌙",
-    "You’re a work of art — not a to-do list 🎨",
+    "You’re a work of art - not a to-do list 🎨",
     "Peace begins with giving yourself permission to pause 🧘‍♀️"
 ];
 
@@ -237,4 +237,5 @@ function showAffirmation() {
     messageText.textContent = affirmation;
     modal.style.display = "block";
 }
+
 
