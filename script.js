@@ -212,7 +212,7 @@ window.onclick = function(event) {
 const affirmations = [
     "I am becoming the woman I’ve always wanted to be 🌼",
     "I carry strength, beauty, and purpose within me every day ✨",
-    "I trust my journey — even when I don't have all the answers 🛤️",
+    "I trust my journey - even when I don't have all the answers 🛤️",
     "I am a radiant source of light and calm 💡",
     "I wake up each day with courage in my heart and clarity in my soul 🌅",
     "I speak to myself with love and compassion today 💬💕",
@@ -222,7 +222,7 @@ const affirmations = [
     "I honor my needs without guilt or apology 🌸",
     "Even when I struggle, I still shine ✨",
     "I choose to nourish my mind, body, and spirit today 🍵🧘‍♀️",
-    "I am not alone — I am deeply connected to love and support 🤝",
+    "I am not alone - I am deeply connected to love and support 🤝",
     "I deserve joy without earning it 💛",
     "My future is full of beautiful possibilities 🌈"
 ];
@@ -237,3 +237,4 @@ function showAffirmation() {
     messageText.textContent = affirmation;
     modal.style.display = "block";
 }
+
